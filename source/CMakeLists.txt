@@ -24,6 +24,7 @@ include_directories(${SC_PATH}/common/Headers/common)
 include_directories(${SC_PATH}/common/Source/plugins) # for FFT_UGens.h
 
 include_directories(${SC_PATH}/external_libraries/libsndfile/)
+find_package(FFTW3f 3.3)
 
 
 #-------
