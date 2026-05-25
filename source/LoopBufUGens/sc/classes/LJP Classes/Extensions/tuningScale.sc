@@ -1,4 +1,4 @@
-// © 2003 Lance Putnam
+// Â© 2003 Lance Putnam
 
 + SequenceableCollection {
 

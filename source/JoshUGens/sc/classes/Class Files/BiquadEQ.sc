@@ -31,8 +31,8 @@ JAES, vol 45, no 9, 1997
 		wc = sr * freq;				// freq in radians
 		dw = rq * wc;				// bandwidth in radians
 
-		dw = (dw/2).tan;			// delta is only used to compute ง
-		beta = (1 - dw) / (1 + dw);	// ง
+		dw = (dw/2).tan;			// delta is only used to compute ยง
+		beta = (1 - dw) / (1 + dw);	// ยง
 		y = cos(wc).neg;			// lattice coefficient
 		
 		b0 = beta;
